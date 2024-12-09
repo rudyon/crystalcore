@@ -19,5 +19,6 @@ public class CrystalCore implements ModInitializer {
 
 		LOGGER.info("Hello Quilt world from {}!", metadata.name());
 		CrystalCoreItems.register(mod);
+		CrystalCoreBlocks.register(mod);
 	}
 }

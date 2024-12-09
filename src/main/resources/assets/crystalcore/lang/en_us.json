@@ -2,5 +2,6 @@
   "item.crystalcore.fluxium": "Fluxium Shard",
   "item.crystalcore.biopolymer": "Biopolymer",
   "item.crystalcore.steel": "Steel",
-  "itemGroup.crystalcore.crystal_core_tab": "Crystal Core"
+  "itemGroup.crystalcore.crystal_core_tab": "Crystal Core",
+  "block.crystalcore.fluxium_ore": "Fluxium Geode"
 }
