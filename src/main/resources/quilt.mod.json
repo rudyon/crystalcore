@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.rudyon.crystalcore.CrystalCore"
+			"main": "io.rudyon.crystalcore.CrystalCore"
 		},
 		"depends": [
 			{
