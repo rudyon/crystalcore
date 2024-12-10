@@ -1,8 +1,8 @@
-package io.rudyon.crystalcore;
+package io.rudyon.crystalcore.items;
 
+import io.rudyon.crystalcore.CrystalCore;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.client.toast.SystemToast;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
