@@ -4,6 +4,21 @@
     "front": "crystalcore:block/basic_chemistry_lab_front",
     "side": "crystalcore:block/basic_chemistry_lab_side",
     "top": "crystalcore:block/basic_chemistry_lab_top",
-    "bottom": "crystalcore:block/basic_chemistry_lab_bottom"
-  }
+    "bottom": "crystalcore:block/basic_chemistry_lab_bottom",
+    "back": "crystalcore:block/basic_chemistry_lab_back"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "texture": "#front" },
+        "east": { "texture": "#side" },
+        "west": { "texture": "#side" },
+        "up": { "texture": "#top" },
+        "down": { "texture": "#bottom" },
+        "south": { "texture": "#back" }
+      }
+    }
+  ]
 }
