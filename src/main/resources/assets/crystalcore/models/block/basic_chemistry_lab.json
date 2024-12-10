@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "front": "crystalcore:block/basic_chemistry_lab_front",
+    "side": "crystalcore:block/basic_chemistry_lab_side",
+    "top": "crystalcore:block/basic_chemistry_lab_top",
+    "bottom": "crystalcore:block/basic_chemistry_lab_bottom"
+  }
+}
