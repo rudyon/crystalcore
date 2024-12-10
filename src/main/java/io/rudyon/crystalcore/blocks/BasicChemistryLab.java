@@ -8,7 +8,6 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
-import net.minecraft.world.BlockView;
 
 public class BasicChemistryLab extends BlockWithEntity {
 	public static final DirectionProperty FACING = DirectionProperty.of("facing", Direction.NORTH, Direction.SOUTH, Direction.EAST, Direction.WEST);
@@ -35,7 +34,6 @@ public class BasicChemistryLab extends BlockWithEntity {
 
 	@Override
 	public BlockState getPlacementState(ItemPlacementContext context) {
-		// Orient the block to face the player
 		return this.getDefaultState().with(FACING, context.getPlayerFacing().getOpposite());
 	}
 
