@@ -20,7 +20,7 @@ public class CrystalCoreBlocks {
 		.toolRequired()
 	);
 
-	public static final Block BASIC_CHEMISTRY_LAB = new Block(FabricBlockSettings.create()
+	public static final BasicChemistryLab BASIC_CHEMISTRY_LAB = new BasicChemistryLab(FabricBlockSettings.create()
 		.sounds(BlockSoundGroup.METAL)
 	);
 
