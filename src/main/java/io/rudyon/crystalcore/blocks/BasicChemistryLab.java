@@ -53,7 +53,10 @@ public class BasicChemistryLab extends BlockWithEntity {
 	protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity entity, BlockHitResult hitResult) {
 		ActionResult result = super.onUse(state, world, pos, entity, hitResult);
 
-		MinecraftClient.getInstance().setScreen(new BasicChemistryLabScreen(Text.empty()));
+		MinecraftClient.getInstance().execute(() -> {
+			MinecraftClient.getInstance().setScreen(new BasicChemistryLabScreen(Text.empty()));
+		});
+
 
 		return result;
 	}
